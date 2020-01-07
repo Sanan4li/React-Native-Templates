@@ -9,9 +9,9 @@ import { HeaderButtons , Item } from "react-navigation-header-buttons";
           headerLeft : 
               <HeaderButtons HeaderButtonComponent={MyHeaderButton}>
                <Item title="Favourtie" iconName="bars" 
-               onPress={()=>{
-                navigation.openDrawer();
-               }}
+            //    onPress={()=>{
+            //     navigation.openDrawer();
+            //    }}
                
                 />
              </HeaderButtons>

@@ -10,9 +10,9 @@ import Entypo from "react-native-vector-icons";
           headerLeft : 
               <HeaderButtons HeaderButtonComponent={MyHeaderButton}>
                <Item title="Favourtie" iconName="bars" 
-               onPress={()=>{
-                navigation.openDrawer();
-               }}
+            //    onPress={()=>{
+            //     navigation.openDrawer();
+            //    }}
                
                 />
              </HeaderButtons>
@@ -24,13 +24,7 @@ import Entypo from "react-native-vector-icons";
         console.log(this.props.navigation.state.routeName);
         return (
             <View style={styles.main}>
-                <Button title="Open Menus"
-                onPress={
-                    ()=>{
-                        this.props.navigation.openDrawer();
-                    }
-                }
-                />
+                
                 <Text style={{fontFamily : "Anton-Regular"}}>
                     Testing Custom Fonts : Anton-Regular
                 </Text>
